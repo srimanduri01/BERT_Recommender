@@ -883,46 +883,5 @@ Our results were obtained by running `scripts/run_squad.sh` in the pytorch:21.11
 To achieve these same results, follow the steps in the [Quick Start Guide](#quick-start-guide).
  
 The inference performance metrics used were sequences/second.
- 
-## Release notes
- 
-### Changelog
- 
-January 2022
-- Knowledge Distillation support
-- Pre-training with native AMP, native DDP, and TorchScript with NVFuser backend
-- Pre-training using [Language Datasets and Data Loaders (LDDL)](../../../Tools/lddl)
-- Binned pretraining for phase2 with LDDL using a bin size of 64
-
-July 2020
--  Updated accuracy and performance tables to include A100 results
--  Fine-tuning with the MRPC and SST-2 datasets.
- 
-March 2020
-- TRITON Inference Server support.
- 
-February 2020
-- Integrate DLLogger.
- 
-November 2019
-- Use LAMB from APEX.
-- Code cleanup.
-- Bug fix in BertAdam optimizer.
- 
-September 2019
-- Scripts to support a multi-node launch.
-- Update pre-training loss results based on the latest data preparation scripts.
- 
-August 2019
-- Pre-training support with LAMB optimizer.
-- Updated Data download and Preprocessing.
- 
-July 2019
-- Initial release.
- 
-### Known issues
- 
-There are no known issues with this model.
-
 
 
